@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shourya Saran — Full-Stack Developer</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%230d0b08'/%3E%3Cstop offset='100%25' stop-color='%231a1aff'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='16' fill='url(%23g)'/%3E%3Ccircle cx='32' cy='32' r='22' fill='none' stroke='%23f5f2ee' stroke-width='2.5'/%3E%3Ctext x='32' y='39' text-anchor='middle' font-family='Arial, sans-serif' font-size='22' font-weight='700' fill='%23f5f2ee' letter-spacing='-1'%3ESS%3C/text%3E%3C/svg%3E">
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Outfit:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel='stylesheet' href='styles.css'>
+</head>
+
+<body>
+
+    <!-- NAV -->
+    <nav id="nav">
+        <div class="nav-logo"><span>Shourya Saran</span></div>
+        <div class="nav-right">
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                <div class="toggle-icons"><span>☀️</span><span>🌙</span></div>
+            </button>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section id="hero">
+        <div class="hero-orb o1"></div>
+        <div class="hero-orb o2"></div>
+        <div class="hero-bg-word" id="bgWord">BUILD</div>
+        <div class="hero-eyebrow">Full-Stack Developer · Open to Internships 2025–26</div>
+        <h1 class="hero-name">Shourya<br><em>Saran.</em></h1>
+        <div class="hero-bottom">
+            <p class="hero-desc">
+                CS undergrad at <strong>SRMIST, Chennai</strong> who builds and ships —
+                MERN stack, real-time systems, and AI-powered developer tools.
+                <strong>4 deployed projects. 3 hackathons.</strong>
+            </p>
+            <div class="hero-ctas">
+                <a href="#projects" class="btn btn-fill">View Projects ↓</a>
+                <a href="https://github.com/ShouryaSaran" target="_blank" class="btn btn-ghost">GitHub →</a>
+            </div>
+        </div>
+        <div class="scroll-hint">
+            <div class="scroll-line"></div>
+            Scroll
+        </div>
+    </section>
+
+    <!-- MARQUEE -->
+    <div class="marquee-strip">
+        <div class="marquee-inner" id="marqueeInner">
+            <span class="m-item">React<span class="dot">✦</span></span>
+            <span class="m-item">Node.js<span class="dot">✦</span></span>
+            <span class="m-item">TypeScript<span class="dot">✦</span></span>
+            <span class="m-item">MongoDB<span class="dot">✦</span></span>
+            <span class="m-item">Socket.io<span class="dot">✦</span></span>
+            <span class="m-item">Gemini API<span class="dot">✦</span></span>
+            <span class="m-item">PostgreSQL<span class="dot">✦</span></span>
+            <span class="m-item">FastAPI<span class="dot">✦</span></span>
+            <span class="m-item">XGBoost<span class="dot">✦</span></span>
+            <span class="m-item">Electron<span class="dot">✦</span></span>
+            <span class="m-item">Redis<span class="dot">✦</span></span>
+            <span class="m-item">Python<span class="dot">✦</span></span>
+            <span class="m-item">React<span class="dot">✦</span></span>
+            <span class="m-item">Node.js<span class="dot">✦</span></span>
+            <span class="m-item">TypeScript<span class="dot">✦</span></span>
+            <span class="m-item">MongoDB<span class="dot">✦</span></span>
+            <span class="m-item">Socket.io<span class="dot">✦</span></span>
+            <span class="m-item">Gemini API<span class="dot">✦</span></span>
+            <span class="m-item">PostgreSQL<span class="dot">✦</span></span>
+            <span class="m-item">FastAPI<span class="dot">✦</span></span>
+            <span class="m-item">XGBoost<span class="dot">✦</span></span>
+            <span class="m-item">Electron<span class="dot">✦</span></span>
+            <span class="m-item">Redis<span class="dot">✦</span></span>
+            <span class="m-item">Python<span class="dot">✦</span></span>
+        </div>
+    </div>
+
+    <!-- ABOUT -->
+    <section id="about">
+        <div class="s-label reveal">01 — About me</div>
+        <h2 class="s-title reveal reveal-d1">The story<br>so far, <em>honestly.</em></h2>
+        <div class="about-grid">
+            <div class="about-text reveal-left reveal-d1">
+                <p>I started coding not to land a job — but because I wanted to <strong>build things that didn't exist
+                        yet.</strong> That obsession turned into 4 full-stack projects shipped till my second year of
+                    college.</p>
+                <p>I'm a 2nd-year CS student at <strong>SRMIST, Chennai</strong>, but most of my time outside
+                    class goes into shipping code, competing in hackathons, and learning whatever the next project
+                    demands.</p>
+                <p>My core is MERN, with a growing focus on <strong>AI integration and real-time systems.</strong> I've
+                    participated in hackathons at IIT Madras, pitched at idea competitions, and built through a 24-hour
+                    hackathon at Computex 1.0.</p>
+                <p>Looking for a <strong>software engineering internship</strong> where I can contribute from day one —
+                    not just sit in on meetings.</p>
+            </div>
+            <div class="reveal-right reveal-d2">
+                <p
+                    style="font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:0.08em;color:var(--ink3);margin-bottom:12px;">
+                    Current stack</p>
+                <div class="chips-box">
+                    <div class="chips-glass"></div>
+                    <div class="chips-liquid"></div>
+                    <div class="chips">
+                        <span class="chip" style="--i:1">Full-Stack Development</span>
+                        <span class="chip" style="--i:2">React.js</span>
+                        <span class="chip" style="--i:3">Node.js</span>
+                        <span class="chip" style="--i:4">JavaScript</span>
+                        <span class="chip" style="--i:5">TypeScript</span>
+                        <span class="chip" style="--i:6">MongoDB</span>
+                        <span class="chip" style="--i:7">REST APIs</span>
+                        <span class="chip" style="--i:8">Python (Programming Language)</span>
+                        <span class="chip" style="--i:9">Machine Learning</span>
+                        <span class="chip" style="--i:10">Git & GitHub</span>
+                        <span class="chip" style="--i:11">Flask</span>
+                        <span class="chip" style="--i:12">Database Management System (DBMS)</span>
+                        <span class="chip" style="--i:13">Tailwind CSS</span>
+                        <span class="chip" style="--i:14">Next.js</span>
+                        <span class="chip" style="--i:15">Object-Oriented Programming (OOP)</span>
+                        <span class="chip" style="--i:16">Cascading Style Sheets (CSS)</span>
+                        <span class="chip" style="--i:17">HTML5</span>
+                        <span class="chip" style="--i:18">Express.js</span>
+                        <span class="chip" style="--i:19">Electron.js</span>
+                        <span class="chip" style="--i:20">C++</span>
+                        <span class="chip" style="--i:21">Java</span>
+                        <span class="chip" style="--i:22">Git</span>
+                        <span class="chip" style="--i:23">FastAPI</span>
+                        <span class="chip" style="--i:24">System Design Basics</span>
+                        <span class="chip" style="--i:25">PostgreSQL</span>
+                        <span class="chip" style="--i:26">Docker (learn basics)</span>
+                        <span class="chip" style="--i:27">LLM Integration</span>
+                        <span class="chip chip-more" style="--i:28">Many more to come</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+        <div class="s-label reveal">02 — Selected work</div>
+        <h2 class="s-title reveal reveal-d1">Things I've<br>actually <em>built.</em></h2>
+        <div class="projects-grid">
+
+            <div class="proj-card reveal">
+                <div>
+                    <div class="proj-num">01 / Featured · Live in production</div>
+                    <div class="proj-name">CodeSense</div>
+                    <div class="proj-desc">Full-stack AI code review platform. Paste code → get structured bug reports
+                        and optimisations powered by Gemini API, with a Monaco editor showing real-time diff between
+                        your original and the AI-refactored version.</div>
+                    <div class="proj-tags">
+                        <span class="tag">React</span><span class="tag">Node.js</span>
+                        <span class="tag">Express</span><span class="tag">MongoDB</span>
+                        <span class="tag">Gemini API</span><span class="tag">Monaco Editor</span>
+                        <span class="tag">Vercel + Render</span>
+                    </div>
+                    <div class="proj-actions">
+                        <a href="https://code-sense-pi.vercel.app/" target="_blank" class="proj-link live">↗ Live
+                            Demo</a>
+                        <a href="https://github.com/ShouryaSaran" target="_blank" class="proj-link gh">GitHub →</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="proj-card reveal">
+                <div class="proj-num">02</div>
+                <div class="proj-name">InterPrep</div>
+                <div class="proj-desc">Upload your resume, pick a target role — get a personalised set of technical and
+                    behavioural questions generated by Gemini API. JWT auth, protected routes, full session management.
+                </div>
+                <div class="proj-tags">
+                    <span class="tag">React</span><span class="tag">SCSS</span>
+                    <span class="tag">Node.js</span><span class="tag">JWT</span>
+                    <span class="tag">Gemini API</span><span class="tag">MongoDB</span>
+                </div>
+                <div class="proj-actions">
+                    <a href="https://github.com/ShouryaSaran/Interview-Ai" target="_blank" class="proj-link live">↗
+                        GitHub</a>
+                </div>
+            </div>
+
+            <div class="proj-card reveal">
+                <div class="proj-num">03</div>
+                <div class="proj-name">ChainPulse</div>
+                <div class="proj-desc">Supply chain intelligence platform with ML risk scoring (XGBoost), real-time
+                    tracking via Socket.IO + Redis, geospatial route visualisation, and alternate path simulation across
+                    global logistics networks.</div>
+                <div class="proj-tags">
+                    <span class="tag">React</span><span class="tag">FastAPI</span>
+                    <span class="tag">Socket.IO</span><span class="tag">PostgreSQL</span>
+                    <span class="tag">Redis</span><span class="tag">XGBoost</span>
+                </div>
+                <div class="proj-actions">
+                    <a href="https://github.com/ShouryaSaran/ChainPulse" target="_blank" class="proj-link live">↗
+                        GitHub</a>
+                </div>
+            </div>
+
+            <div class="proj-card reveal">
+                <span class="proj-wip">In Progress</span>
+                <div class="proj-num">04</div>
+                <div class="proj-name">CodeCanvas</div>
+                <div class="proj-desc">VS Code-like desktop editor in Electron + React. Real-time collaborative coding
+                    via Socket.io (sub-second sync). LLM-powered code completion and intelligent project scaffolding
+                    with native file system access.</div>
+                <div class="proj-tags">
+                    <span class="tag">Electron</span><span class="tag">React</span>
+                    <span class="tag">Node.js</span><span class="tag">Socket.io</span>
+                    <span class="tag">LLM APIs</span>
+                </div>
+                <div class="proj-actions">
+                    <a href="https://github.com/ShouryaSaran/CodeCanvas" target="_blank" class="proj-link live">↗
+                        GitHub</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+        <div class="s-label reveal">03 — Technical skills</div>
+        <h2 class="s-title reveal reveal-d1">What I<br>actually <em>know.</em></h2>
+        <div class="skills-table reveal reveal-d2">
+            <div class="skills-row">
+                <div class="skill-cell"><span class="skill-name">React.js</span>
+                    <div class="skill-bar">
+                        <div class="skill-fill" data-w="92"></div>
+                    </div>
+                </div>
+                <div class="skill-cell"><span class="skill-name">Node.js</span>
+                    <div class="skill-bar">
+                        <div class="skill-fill" data-w="88"></div>
+                    </div>
+                </div>
+                <div class="skill-cell"><span class="skill-name">JavaScript</span>
+                    <div class="skill-bar">
+                        <div class="skill-fill" data-w="90"></div>
+                    </div>
+                </div>
+                <div class="skill-cell"><span class="skill-name">TypeScript</span>
+                    <div class="skill-bar">
+                        <div class="skill-fill" data-w="78"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="skills-row">
+                <div class="skill-cell"><span class="skill-name">MongoDB</span>
+                    <div class="skill-bar">
+                        <div class="skill-fill" data-w="85"></div>
+                    </div>
+                </div>
+                <div class="skill-cell"><span class="skill-name">PostgreSQL</span>
+                    <div class="skill-bar">
+                        <div class="skill-fill" data-w="72"></div>
+                    </div>
+                </div>
+                <div class="skill-cell"><span class="skill-name">Socket.io</span>
+                    <div class="skill-bar">
+                        <div class="skill-fill" data-w="80"></div>
+                    </div>
+                </div>
+                <div class="skill-cell"><span class="skill-name">Redis</span>
+                    <div class="skill-bar">
+                        <div class="skill-fill" data-w="68"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="skills-row">
+                <div class="skill-cell"><span class="skill-name">Python</span>
+                    <div class="skill-bar">
+                        <div class="skill-fill" data-w="82"></div>
+                    </div>
+                </div>
+                <div class="skill-cell"><span class="skill-name">FastAPI</span>
+                    <div class="skill-bar">
+                        <div class="skill-fill" data-w="70"></div>
+                    </div>
+                </div>
+                <div class="skill-cell"><span class="skill-name">Gemini API</span>
+                    <div class="skill-bar">
+                        <div class="skill-fill" data-w="85"></div>
+                    </div>
+                </div>
+                <div class="skill-cell"><span class="skill-name">Git & GitHub</span>
+                    <div class="skill-bar">
+                        <div class="skill-fill" data-w="88"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="leet-block reveal reveal-d2">
+            <div>
+                <div class="leet-big">50<span>+</span></div>
+                <div class="leet-sub">LeetCode problems solved</div>
+            </div>
+            <div class="leet-note">
+                Arrays · Strings · HashMaps<br>
+                Recursion · Two Pointers<br>
+                <span style="color:var(--accent3)">Actively growing →</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+        <div class="s-label" style="justify-content:center;max-width:500px;margin:0 auto 0.75rem;">04 — Let's connect
+        </div>
+        <h2 class="s-title reveal" style="text-align:center;">Let's build<br>something <em>great.</em></h2>
+        <p class="contact-sub reveal reveal-d1">I'm actively looking for SWE internships. If you're building something
+            interesting or want to collaborate — I'm one message away.</p>
+        <div class="contact-btns reveal reveal-d2">
+            <a href="mailto:saran.shourya0211@gmail.com" class="c-btn">✉ Email me</a>
+            <a href="https://github.com/ShouryaSaran" target="_blank" class="c-btn">⌥ GitHub</a>
+            <a href="https://www.linkedin.com/in/shourya-saran-6b1749327/" target="_blank" class="c-btn">LinkedIn</a>
+        </div>
+        <a href="mailto:saran.shourya0211@gmail.com" class="contact-email">saran.shourya0211@gmail.com</a>
+    </section>
+
+    <footer>
+        <span class="footer-text">© 2026 Shourya Saran — Built with HTML, CSS & JS</span>
+        <a href="#hero" class="footer-up">↑ Back to top</a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
